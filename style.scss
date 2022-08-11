@@ -60,6 +60,7 @@ p {
     align-items: center;
     background-color: var(--bg-primary);
     padding: 0.5em 0;
+    z-index: 100;
     a {
         color: white;
         text-decoration: none;
@@ -205,6 +206,27 @@ p {
     opacity: 0;
 }
 
+.navigation-links-2{
+    animation: fade-in 1s forwards ease-in;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+.nav-container{
+    animation: fade-in 1s forwards ease-in;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+.ph-svg{
+    animation: fade-in 1s forwards ease-in;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+#home{
+    z-index: 0;
+}
 @keyframes fade-in {
     to{
         opacity: 1;

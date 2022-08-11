@@ -69,6 +69,7 @@ p {
           align-items: center;
   background-color: var(--bg-primary);
   padding: 0.5em 0;
+  z-index: 100;
 }
 
 .nav-container a {
@@ -279,6 +280,34 @@ p {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
   opacity: 0;
+}
+
+.navigation-links-2 {
+  -webkit-animation: fade-in 1s forwards ease-in;
+          animation: fade-in 1s forwards ease-in;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  opacity: 0;
+}
+
+.nav-container {
+  -webkit-animation: fade-in 1s forwards ease-in;
+          animation: fade-in 1s forwards ease-in;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  opacity: 0;
+}
+
+.ph-svg {
+  -webkit-animation: fade-in 1s forwards ease-in;
+          animation: fade-in 1s forwards ease-in;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  opacity: 0;
+}
+
+#home {
+  z-index: 0;
 }
 
 @-webkit-keyframes fade-in {
