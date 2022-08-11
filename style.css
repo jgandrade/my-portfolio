@@ -328,6 +328,14 @@ p {
   opacity: 0;
 }
 
+.cta-btn {
+  -webkit-animation: fade-in 1s forwards ease-in;
+          animation: fade-in 1s forwards ease-in;
+  -webkit-animation-delay: 3.3s;
+          animation-delay: 3.3s;
+  opacity: 0;
+}
+
 #home {
   z-index: 0;
 }

@@ -240,6 +240,12 @@ p {
     opacity: 0;
 }
 
+.cta-btn{
+    animation: fade-in 1s forwards ease-in;
+    animation-delay: 3.3s;
+    opacity: 0;
+}
+
 #home {
     z-index: 0;
 }
