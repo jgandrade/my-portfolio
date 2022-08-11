@@ -101,7 +101,7 @@ p {
 
         @keyframes slide-side {
             to {
-                right: -4em;
+                right: -2em;
             }
         }
     }
@@ -109,7 +109,7 @@ p {
 
 .nav-menu {
     transition: all 0.3s ease;
-    font-size: 2em;
+    font-size: 1.3em;
     ul {
         padding-top: 5em;
         display: flex;

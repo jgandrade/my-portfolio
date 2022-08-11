@@ -122,20 +122,20 @@ p {
 
 @-webkit-keyframes slide-side {
   to {
-    right: -4em;
+    right: -2em;
   }
 }
 
 @keyframes slide-side {
   to {
-    right: -4em;
+    right: -2em;
   }
 }
 
 .nav-menu {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 .nav-menu ul {
