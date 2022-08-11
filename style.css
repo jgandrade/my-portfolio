@@ -556,8 +556,8 @@ p {
     transition: all 0.3s ease;
   }
   .main-container .contents:hover * {
-    -webkit-transform: scale(1.01);
-            transform: scale(1.01);
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
   }
   .main-container h1,
   .main-container p {

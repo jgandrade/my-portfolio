@@ -445,7 +445,7 @@ p {
             }
 
             &:hover * {
-                transform: scale(1.01);
+                transform: scale(1.02);
             }
         }
         & h1,
@@ -453,6 +453,8 @@ p {
             cursor: default;
         }
     }
+
+    
 
     #about {
         display: flex;
