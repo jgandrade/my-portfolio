@@ -18,14 +18,23 @@
   --transition-setting-2: all ease-in-out;
 }
 
+::-moz-selection {
+  color: #fa6363;
+}
+
+::selection {
+  color: #fa6363;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-body {
+.main-container {
   background-image: url(./resources/images/bg.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {

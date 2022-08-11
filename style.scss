@@ -18,13 +18,19 @@
     --transition-setting-2: all ease-in-out;
 }
 
-html{
+::selection {
+    color: rgb(250, 99, 99);
+}
+
+html {
     scroll-behavior: smooth;
 }
-body {
+
+.main-container {
     background-image: url(./resources/images/bg.svg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -65,7 +71,7 @@ p {
         color: white;
         text-decoration: none;
     }
-    a:hover{
+    a:hover {
         color: lightcoral;
     }
     .burger-btn {
@@ -188,47 +194,47 @@ p {
     color: white;
 }
 
-.hi{
+.hi {
     animation: fade-in 1s forwards ease-in;
     animation-delay: 1s;
     opacity: 0;
 }
 
-.neymmm{
+.neymmm {
     animation: fade-in 1s forwards ease-in;
     animation-delay: 1.5s;
     opacity: 0;
 }
 
-.quote-bottom{
+.quote-bottom {
     animation: fade-in 1s forwards ease-in;
     animation-delay: 3s;
     opacity: 0;
 }
 
-.navigation-links-2{
+.navigation-links-2 {
     animation: fade-in 1s forwards ease-in;
     animation-delay: 4s;
     opacity: 0;
 }
 
-.nav-container{
+.nav-container {
     animation: fade-in 1s forwards ease-in;
     animation-delay: 4s;
     opacity: 0;
 }
 
-.ph-svg{
+.ph-svg {
     animation: fade-in 1s forwards ease-in;
     animation-delay: 4s;
     opacity: 0;
 }
 
-#home{
+#home {
     z-index: 0;
 }
 @keyframes fade-in {
-    to{
+    to {
         opacity: 1;
     }
 }
@@ -516,7 +522,6 @@ p {
         }
 
         .proj {
-            
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -551,6 +556,5 @@ p {
     #contact {
         display: flex;
         flex-direction: column;
-        
     }
 }
